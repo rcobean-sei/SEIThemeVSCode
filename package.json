@@ -1,0 +1,42 @@
+{
+  "name": "sei-theme",
+  "displayName": "SEI Theme",
+  "description": "Official SEI brand-inspired theme for VS Code with light and dark variants",
+  "version": "1.0.0",
+  "publisher": "sei",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "SEI Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sei-dark.json"
+      },
+      {
+        "label": "SEI Light",
+        "uiTheme": "vs",
+        "path": "./themes/sei-light.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sei/sei-vscode-theme"
+  },
+  "keywords": [
+    "theme",
+    "sei",
+    "dark",
+    "light",
+    "color theme"
+  ]
+}
+
+
+
+
