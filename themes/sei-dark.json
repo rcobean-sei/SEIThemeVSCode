@@ -121,10 +121,10 @@
     "panelTitle.activeForeground": "#FFFFF8",
     "panelTitle.inactiveForeground": "#705E74",
 
-    // Status Bar - RED 1 per brand guidelines
-    "statusBar.background": "#F01840",
+    // Status Bar - PURPLE 4 for subtle contrast per brand guidelines
+    "statusBar.background": "#402848",
     "statusBar.foreground": "#FFFFF8",
-    "statusBar.border": "#F01840",
+    "statusBar.border": "#402848",
     "statusBar.debuggingBackground": "#C01830",
     "statusBar.debuggingForeground": "#FFFFF8",
     "statusBar.noFolderBackground": "#402848",
@@ -181,13 +181,14 @@
     "breadcrumb.activeSelectionForeground": "#F01840",
     "breadcrumbPicker.background": "#2A1C30",
 
-    // Buttons - RED 1 per brand
+    // Buttons - RED 1 primary, PURPLE secondary per brand
     "button.background": "#F01840",
     "button.foreground": "#FFFFF8",
     "button.hoverBackground": "#C01830",
-    "button.secondaryBackground": "#705E74",
+    "button.secondaryBackground": "#402848",
     "button.secondaryForeground": "#FFFFF8",
-    "button.secondaryHoverBackground": "#A0949E",
+    "button.secondaryHoverBackground": "#2A1C30",
+    "button.border": "#402848",
 
     // Input
     "input.background": "#1B1420",
@@ -286,7 +287,20 @@
     "minimap.warningHighlight": "#C01830",
     "minimapGutter.addedBackground": "#705E74",
     "minimapGutter.modifiedBackground": "#A0949E",
-    "minimapGutter.deletedBackground": "#F01840"
+    "minimapGutter.deletedBackground": "#F01840",
+
+    // Extension/Webview colors for chat interfaces
+    "textLink.foreground": "#F01840",
+    "textLink.activeForeground": "#C01830",
+    "textBlockQuote.background": "#2A1C30",
+    "textBlockQuote.border": "#402848",
+    "textCodeBlock.background": "#2A1C30",
+    "textPreformat.foreground": "#D0C8C8",
+    "textSeparator.foreground": "#402848",
+    "widget.shadow": "#00000050",
+    "checkbox.background": "#2A1C30",
+    "checkbox.foreground": "#FFFFF8",
+    "checkbox.border": "#402848"
   },
   "tokenColors": [
     {
