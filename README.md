@@ -6,7 +6,7 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-C01830?style=for-the-badge)
 ![VS Code](https://img.shields.io/badge/VS%20Code-Compatible-402848?style=for-the-badge)
 
-**A professional VS Code theme meticulously crafted from the official SEI Brand Guidelines**
+**A professional VS Code theme crafted from the official SEI Brand Guidelines**
 
 [Installation](#installation) • [Features](#features) • [Screenshots](#screenshots) • [Color Palette](#color-palette) • [Contributing](#contributing)
 

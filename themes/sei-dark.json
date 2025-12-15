@@ -246,13 +246,13 @@
     "terminalCursor.foreground": "#F01840",
 
     // Git decoration
-    "gitDecoration.addedResourceForeground": "#705E74",
-    "gitDecoration.modifiedResourceForeground": "#A0949E",
+    "gitDecoration.addedResourceForeground": "#A0949E",
+    "gitDecoration.modifiedResourceForeground": "#D0C8C8",
     "gitDecoration.deletedResourceForeground": "#F01840",
     "gitDecoration.untrackedResourceForeground": "#D0C8C8",
-    "gitDecoration.ignoredResourceForeground": "#402848",
+    "gitDecoration.ignoredResourceForeground": "#705E74",
     "gitDecoration.conflictingResourceForeground": "#C01830",
-    "gitDecoration.stageModifiedResourceForeground": "#A0949E",
+    "gitDecoration.stageModifiedResourceForeground": "#D0C8C8",
     "gitDecoration.stageDeletedResourceForeground": "#F01840",
 
     // Diff editor
@@ -433,6 +433,13 @@
       }
     },
     {
+      "name": "HTML Attribute Value",
+      "scope": ["string.quoted.double.html", "string.quoted.single.html", "meta.attribute-with-value.html string", "meta.tag.inline.any.html string.quoted"],
+      "settings": {
+        "foreground": "#D0C8C8"
+      }
+    },
+    {
       "name": "Punctuation Tag",
       "scope": ["punctuation.definition.tag"],
       "settings": {
@@ -527,10 +534,17 @@
       }
     },
     {
-      "name": "Markdown Link",
-      "scope": ["markup.underline.link", "string.other.link"],
+      "name": "Markdown Link Text",
+      "scope": ["markup.underline.link"],
       "settings": {
         "foreground": "#F01840"
+      }
+    },
+    {
+      "name": "Markdown Link URL",
+      "scope": ["string.other.link.title.markdown", "markup.underline.link.string"],
+      "settings": {
+        "foreground": "#A0949E"
       }
     },
     {

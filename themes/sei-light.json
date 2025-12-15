@@ -246,13 +246,13 @@
     "terminalCursor.foreground": "#F01840",
 
     // Git decoration
-    "gitDecoration.addedResourceForeground": "#402848",
-    "gitDecoration.modifiedResourceForeground": "#705E74",
+    "gitDecoration.addedResourceForeground": "#705E74",
+    "gitDecoration.modifiedResourceForeground": "#A0949E",
     "gitDecoration.deletedResourceForeground": "#F01840",
     "gitDecoration.untrackedResourceForeground": "#A0949E",
     "gitDecoration.ignoredResourceForeground": "#D0C8C8",
     "gitDecoration.conflictingResourceForeground": "#C01830",
-    "gitDecoration.stageModifiedResourceForeground": "#705E74",
+    "gitDecoration.stageModifiedResourceForeground": "#A0949E",
     "gitDecoration.stageDeletedResourceForeground": "#F01840",
 
     // Diff editor
@@ -302,6 +302,23 @@
       "scope": ["string", "string.quoted", "string.template"],
       "settings": {
         "foreground": "#901226"
+      }
+    },
+    {
+      "name": "HTML Attribute Value - Must come after String",
+      "scope": [
+        "string.quoted.double.html",
+        "string.quoted.single.html",
+        "meta.attribute-with-value.html string",
+        "meta.tag.inline.any.html string.quoted",
+        "meta.tag.other.html string.quoted",
+        "meta.attribute.html string",
+        "meta.tag string.quoted",
+        "meta.tag.html string",
+        "text.html string.quoted"
+      ],
+      "settings": {
+        "foreground": "#141018"
       }
     },
     {
@@ -430,7 +447,7 @@
       "name": "Tag Attribute",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#600C1C",
+        "foreground": "#705E74",
         "fontStyle": "italic"
       }
     },
@@ -529,10 +546,17 @@
       }
     },
     {
-      "name": "Markdown Link",
-      "scope": ["markup.underline.link", "string.other.link"],
+      "name": "Markdown Link Text",
+      "scope": ["markup.underline.link"],
       "settings": {
         "foreground": "#F01840"
+      }
+    },
+    {
+      "name": "Markdown Link URL",
+      "scope": ["string.other.link.title.markdown", "markup.underline.link.string"],
+      "settings": {
+        "foreground": "#705E74"
       }
     },
     {
@@ -592,6 +616,17 @@
       "scope": ["markup.changed"],
       "settings": {
         "foreground": "#A0949E"
+      }
+    },
+    {
+      "name": "HTML Attribute Value - Final Override",
+      "scope": [
+        "meta.tag string.quoted.double",
+        "meta.tag string.quoted.single",
+        "entity.other.attribute-name + string"
+      ],
+      "settings": {
+        "foreground": "#141018"
       }
     }
   ],

@@ -176,3 +176,8 @@ Feel free to open a [Discussion](https://github.com/rydercobean/SEIThemeVSCode/d
 Thank you for contributing to making SEI Theme better! 🎨✨
 
 
+
+
+
+
+
