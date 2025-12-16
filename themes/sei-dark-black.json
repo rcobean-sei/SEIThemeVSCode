@@ -1,5 +1,5 @@
 {
-  "name": "SEI Dark",
+  "name": "SEI Dark (Black)",
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
@@ -81,17 +81,17 @@
     "editorGutter.deletedBackground": "#F01840",
     "editorGutter.commentRangeForeground": "#705E74",
 
-    // Editor widget - PURPLE backgrounds with CREAM text
-    "editorWidget.background": "#2A1C30",
+    // Editor widget - BLACK backgrounds (variant change)
+    "editorWidget.background": "#141018",
     "editorWidget.foreground": "#FFFFF8",
     "editorWidget.border": "#402848",
-    "editorSuggestWidget.background": "#2A1C30",
+    "editorSuggestWidget.background": "#141018",
     "editorSuggestWidget.border": "#402848",
     "editorSuggestWidget.foreground": "#FFFFF8",
     "editorSuggestWidget.highlightForeground": "#F01840",
     "editorSuggestWidget.selectedBackground": "#402848",
     "editorSuggestWidget.focusHighlightForeground": "#F01840",
-    "editorHoverWidget.background": "#2A1C30",
+    "editorHoverWidget.background": "#141018",
     "editorHoverWidget.border": "#402848",
 
     // Peek view
@@ -144,8 +144,8 @@
     "titleBar.inactiveForeground": "#705E74",
     "titleBar.border": "#402848",
 
-    // Menu
-    "menu.background": "#2A1C30",
+    // Menu - BLACK background (variant change)
+    "menu.background": "#141018",
     "menu.foreground": "#FFFFF8",
     "menu.selectionBackground": "#C01830",
     "menu.selectionForeground": "#FFFFF8",
@@ -176,11 +176,11 @@
     "editorGroupHeader.tabsBackground": "#141018",
     "editorGroupHeader.tabsBorder": "#402848",
 
-    // Breadcrumb
+    // Breadcrumb - BLACK picker background (variant change)
     "breadcrumb.foreground": "#A0949E",
     "breadcrumb.focusForeground": "#FFFFF8",
     "breadcrumb.activeSelectionForeground": "#F01840",
-    "breadcrumbPicker.background": "#2A1C30",
+    "breadcrumbPicker.background": "#141018",
 
     // Buttons - RED 1 primary, PURPLE secondary per brand
     "button.background": "#F01840",
@@ -188,7 +188,7 @@
     "button.hoverBackground": "#C01830",
     "button.secondaryBackground": "#402848",
     "button.secondaryForeground": "#FFFFF8",
-    "button.secondaryHoverBackground": "#2A1C30",
+    "button.secondaryHoverBackground": "#141018",
     "button.border": "#402848",
 
     // Input
@@ -207,14 +207,14 @@
     "inputValidation.warningBackground": "#901226",
     "inputValidation.warningBorder": "#C01830",
 
-    // Dropdown
-    "dropdown.background": "#2A1C30",
+    // Dropdown - BLACK background (variant change)
+    "dropdown.background": "#141018",
     "dropdown.foreground": "#FFFFF8",
     "dropdown.border": "#402848",
-    "dropdown.listBackground": "#2A1C30",
+    "dropdown.listBackground": "#141018",
 
-    // Quick Input / Command Palette
-    "quickInput.background": "#2A1C30",
+    // Quick Input / Command Palette - BLACK background (variant change)
+    "quickInput.background": "#141018",
     "quickInput.foreground": "#FFFFF8",
     "quickInputTitle.background": "#402848",
     "quickInputList.focusBackground": "#402848",
@@ -298,16 +298,16 @@
     "minimapGutter.modifiedBackground": "#A0949E",
     "minimapGutter.deletedBackground": "#F01840",
 
-    // Extension/Webview colors for chat interfaces
+    // Extension/Webview colors - BLACK backgrounds (variant change)
     "textLink.foreground": "#F01840",
     "textLink.activeForeground": "#C01830",
-    "textBlockQuote.background": "#2A1C30",
+    "textBlockQuote.background": "#141018",
     "textBlockQuote.border": "#402848",
-    "textCodeBlock.background": "#2A1C30",
+    "textCodeBlock.background": "#141018",
     "textPreformat.foreground": "#D0C8C8",
     "textSeparator.foreground": "#402848",
     "widget.shadow": "#00000050",
-    "checkbox.background": "#2A1C30",
+    "checkbox.background": "#141018",
     "checkbox.foreground": "#FFFFF8",
     "checkbox.border": "#402848"
   },
@@ -655,4 +655,3 @@
     "operator": "#A0949E"
   }
 }
-
