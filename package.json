@@ -18,6 +18,11 @@
         "path": "./themes/sei-dark.json"
       },
       {
+        "label": "SEI Dark (Black)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sei-dark-black.json"
+      },
+      {
         "label": "SEI Light",
         "uiTheme": "vs",
         "path": "./themes/sei-light.json"
