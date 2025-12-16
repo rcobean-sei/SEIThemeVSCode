@@ -23,9 +23,34 @@
         "path": "./themes/sei-dark-black.json"
       },
       {
+        "label": "SEI Dark Moderate",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sei-dark-moderate.json"
+      },
+      {
         "label": "SEI Light",
         "uiTheme": "vs",
         "path": "./themes/sei-light.json"
+      },
+      {
+        "label": "SEI Light (Vibrant Brand)",
+        "uiTheme": "vs",
+        "path": "./themes/sei-light-vibrant-brand.json"
+      },
+      {
+        "label": "SEI Light (Vibrant Teal Accent)",
+        "uiTheme": "vs",
+        "path": "./themes/sei-light-vibrant-teal.json"
+      },
+      {
+        "label": "SEI Light (Pastel Surfaces)",
+        "uiTheme": "vs",
+        "path": "./themes/sei-light-pastel-surfaces.json"
+      },
+      {
+        "label": "SEI Light (Purple Title Bar)",
+        "uiTheme": "vs",
+        "path": "./themes/sei-light-purple-titlebar.json"
       }
     ]
   },
